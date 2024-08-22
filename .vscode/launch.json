@@ -8,7 +8,7 @@
             "request": "launch",
             "name": "Launch Program",
             "type": "node",
-            "program": "${workspaceFolder}/index.ts",
+            "program": "${file}",
             "cwd": "${workspaceFolder}",
             "env": {},
             "runtimeExecutable": "C:\\ProgramData\\chocolatey\\lib\\deno\\deno.EXE",
