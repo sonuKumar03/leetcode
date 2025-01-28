@@ -3,7 +3,6 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest",
     "husky": "^9.1.5"
   },
   "peerDependencies": {
@@ -11,5 +10,8 @@
   },
   "scripts": {
     "prepare": "husky"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
   }
 }
