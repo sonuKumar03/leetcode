@@ -1,27 +1,9 @@
+import { getValidNeighbors } from "./utils/matrix";
+
 /**
  * https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/
  * 2025-01-28
  */
-function getValidNeighbors(i: number, j: number, n: number, m: number) {
-  const neighbors = [];
-  // left
-  if (j - 1 >= 0) {
-    neighbors.push([i, j - 1]);
-  }
-  // right
-  if (j + 1 < m) {
-    neighbors.push([i, j + 1]);
-  }
-  // down
-  if (i + 1 < n) {
-    neighbors.push([i + 1, j]);
-  }
-  // up
-  if (i - 1 >= 0) {
-    neighbors.push([i - 1, j]);
-  }
-  return neighbors;
-}
 function findMaxFish(grid: number[][]): number {
   const n = grid.length;
   const map = new Map<string, number>();
