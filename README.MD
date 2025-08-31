@@ -21,3 +21,12 @@ The goal is to improve problem-solving skills, coding efficiency, and prepare fo
 - Strengthen problem-solving skills
 - Learn different approaches to solve problems
 - Build confidence for coding interviews
+
+## 📁 Structure
+- `leetcode/`: LeetCode solutions (`LC_*.py`) with simple print tests.
+- `contests/`: Misc/contest-style problems (standalone scripts).
+- `at_coder/`: AtCoder practice (e.g., DP problems).
+- `main.py`: Scratchpad/experiments.
+
+## ▶️ Running
+- Run any script directly with Python, e.g. `python leetcode/LC_3021.py`.

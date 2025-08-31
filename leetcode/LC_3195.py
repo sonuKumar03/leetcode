@@ -23,4 +23,4 @@ sol = Solution()
 ans = sol.minimumArea(
     grid = [[0,1,0],[1,0,1]]
 )
-print(ans)      
+print(ans)     
